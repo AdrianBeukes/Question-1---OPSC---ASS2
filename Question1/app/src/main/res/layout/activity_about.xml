@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#87FEF9"
+    tools:context="adrianbeukes.question1.About">
+
+    <TextView
+        android:text="                 Information Saver:
+
+        This Application allows the users
+        To save set amount of infomration
+        on the go, or bits and pieces.
+
+        The information can later then be
+        reviewed on demand.
+
+        *Note not all information fields
+        need to be completed, they are
+        mainly just placed there as a
+        guide line to which information
+        are mostly used and saved.
+
+
+
+        About us:
+        version - 0.8
+        Developer - Adrian Beukes
+        "
+        android:layout_width="260dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="39dp"
+        android:id="@+id/txtInfo"
+        android:layout_alignParentTop="true"
+        android:background="#d3d3d3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtHeading"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        android:textAllCaps="false"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/btnBack"
+        android:layout_below="@+id/txtInfo"
+        android:layout_centerHorizontal="true"
+        android:onClick="backClick" />
+</RelativeLayout>
